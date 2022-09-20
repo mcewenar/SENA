@@ -41,10 +41,9 @@ Funcion salida <- hacerDescuento(entra,edad)
 		FinSi
 		
 	FinSi
-	
 FinFuncion
 
-Algoritmo ejercicio3
+Algoritmo ejercicio3_parte5
 	Definir anio, mes, salida, mesActual, anioActual, diaActual, dia, edad, entrada, edadCalculada Como Entero;
 	Definir nombre, tipoSala Como Caracter;
 	mesActual <- 8; diaActual <- 30; anioActual <- 2022;
@@ -55,6 +54,5 @@ Algoritmo ejercicio3
 	Escribir "Tipo sala: "; leer tipoSala;
 	edadCalculada = calcularEdad(dia,mes,anio,mesActual,diaActual,anioActual);
 	entrada2=tipoEntrada(tipoSala,edadCalculada);
-	Escribir "El cliente ", nombre, " eligió ", tipoSala, " ;edad, ", edadCalculada, " por un precio de ", entrada2;
-	
+	Escribir "El cliente ", nombre, " eligió ", tipoSala, " ;edad ", edadCalculada, " por un precio de ", entrada2;
 FinAlgoritmo
