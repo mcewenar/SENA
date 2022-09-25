@@ -1,7 +1,7 @@
 Algoritmo intercambio
 	Definir num1, num2, temp como entero;
-	Escribir "Escriba el número 1: "; leer num1;
-	Escribir "Escriba el número 2: "; leer num2;
+	Escribir "Escriba el nï¿½mero 1: "; leer num1;
+	Escribir "Escriba el nï¿½mero 2: "; leer num2;
 	temp <- num1;
 	num1 <- num2;
 	num2 <- temp;
