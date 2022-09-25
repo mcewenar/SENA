@@ -2,7 +2,7 @@
 *.log
 
 # ignore ALL files in ANY directory named...
-../../node_modules
+node_modules/
 npm-debug.log
 yarn-error.log
 
