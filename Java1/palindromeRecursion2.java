@@ -13,13 +13,14 @@ class Palindrome {
 
 }
 
-    public static void main(String... args) throws Exception {
+    //public static void main(String... args) throws Exception {
         //System.out.println(isPalindrome("cabezaccfffffffffffffffffff"));
-        Flux<String> source = Flux.just("John", "Monica", "Mark", "Cloe", "Frank", "Casper", "Olivia", "Emily", "Cate")
-            .filter(name -> name.length() == 4)
-            .map(String::toUpperCase);
+        //Flux<String> source = Flux.just("John", "Monica", "Mark", "Cloe", "Frank", "Casper", "Olivia", "Emily", "Cate")
+
+    //        .filter(name -> name.length() == 4)
+    //        .map(String::toUpperCase);
        
-    }
+    //}
 
 }
 
