@@ -105,9 +105,10 @@ img {
     grid-template-rows: max-content auto;
 }
 .contenido-hero h1{
-    grid-column: 1 / 4;
+    grid-column: 2 / 3;
     color: white;
     grid-row: 1 / 2;
+    text-align: center; /*MODIFICACION*/
 }
 
 .contenido-hero form {
@@ -128,9 +129,9 @@ img {
     font-size: 1.6rem;
 }
 .contenido-hero form input[type="submit"] {
-    position: relative;
-    left: 20px;
-    float: right;
+    position: absolute;
+    right: 1rem;
+    top: .6rem;
     background-color: var(--primario);
     border:none;
     padding: .7rem 2rem;
