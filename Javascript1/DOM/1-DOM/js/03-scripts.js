@@ -4,9 +4,8 @@ console.log(encabezado);
 const tituloPagina = 'BARBER SENA SHOP';
 document.title = tituloPagina;
 
-let nuevoFondo = document.querySelector('.hero');
-console.log(nuevoFondo);
-nuevoFondo.style.backgroundimage = 'url(../img/barber/barbershop.jpg)';
+const nuevoFondo = document.querySelector('.hero');
+nuevoFondo.style.backgroundImage = 'url(img/barber/barbershop.jpg)';
 
 const nuevoLogo = document.querySelector('.logo img');
 nuevoLogo.src = 'img/barber/Logo.png';
