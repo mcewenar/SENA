@@ -108,7 +108,6 @@ img {
     grid-column: 2 / 3;
     color: white;
     grid-row: 1 / 2;
-    text-align: center; /*MODIFICACION*/
 }
 
 .contenido-hero form {
@@ -142,6 +141,7 @@ img {
 }
 .contenido-hero form input[type="submit"]:hover {
     cursor: pointer;
+    transform: scale(.95); /*MODIFICACION*/
 }
 
 /** Contenido Principal**/
