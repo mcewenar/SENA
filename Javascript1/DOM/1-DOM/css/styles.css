@@ -329,3 +329,15 @@ main > section {
 .sociales ul li span{
     display: none;
 }
+
+/* MODIFICACION: Estilo cursor imagenes */
+.card img:hover {
+    cursor: pointer;
+    transform: scale(.98);
+}
+
+/* MODIFICACION: Estilo cursor nombre servicios */
+.titulo:hover {
+    cursor: pointer;
+}
+

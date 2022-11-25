@@ -29,7 +29,7 @@ const serviciosNav = document.querySelectorAll('.navegacion a');
 serviciosNav[0].textContent = 'Servicios';
 
 //---------CAMBIOS MAIN--------//
-// MODIFICAICON PRIMER SECCION DEL MAIN
+// ------------------------------------------------ MODIFICAICON PRIMER SECCION DEL MAIN ------------------------------------------------
 // Modificacion primer subtitulo del main
 const serviciosH2 = document.querySelectorAll('.hacer h2');
 console.log(serviciosH2);
@@ -46,7 +46,7 @@ tipoServicios[9].remove();
 
 // Asignacion nombre de servicios
 tipoServicios[1].textContent = 'Corte de Adulto';
-tipoServicios[4].textContent = 'Alisado Cabello';
+tipoServicios[4].textContent = 'Alisado de Cabello';
 tipoServicios[7].textContent = 'Corte de Niño';
 tipoServicios[10].textContent = 'Tinte de Cabello';
 
@@ -63,9 +63,23 @@ imgServicios[1].src = 'img/barber/servicios2.jpg';
 imgServicios[2].src = 'img/barber/servicios3.jpg';
 imgServicios[3].src = 'img/barber/servicios4.jpg';
 
-// MODIFICAICON SEGUNDA SECCION DEL MAIN
+// ------------------------------------------------ MODIFICAICON SEGUNDA SECCION DEL MAIN ------------------------------------------------
+// Modificacion segundo subtitulo del main
+serviciosH2[1].textContent = 'Servicio Premium Full';
 
-// MODIFICAICON TERCER SECCION DEL MAIN
+// Cambio background imagen de la seccion y generarle un gradiente como la imagen original
+const premiumFondo = document.querySelector('.premium');
+premiumFondo.style.backgroundImage = 'url(img/barber/barbershoppremium.jpg), linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(70,252,207,0) 100%)';
+premiumFondo.style.backgroundBlendMode = 'color';
+
+// Cambio texto banner
+document.querySelector('.info h3').textContent = 'Corte, barba, cejas y tratamiento facial';
+document.querySelector('.info h3').style.textAlign = 'center';
+
+// Cambio texto boton
+document.querySelector('.info a').textContent = 'Agenda tu cita';
+
+// ------------------------------------------------ MODIFICAICON TERCER SECCION DEL MAIN ------------------------------------------------
 // Modificacion tercer subtitulo del main
 document.querySelector('.hospedaje h2').textContent = 'SERVICIOS DE  BARBA Y CEJAS';
 
@@ -90,7 +104,7 @@ imgServicios[4].src = 'img/barber/servicios5.jpg';
 imgServicios[5].src = 'img/barber/servicios6.jpg';
 imgServicios[6].src = 'img/barber/servicios7.jpg';
 
-// MODIFICAICON CUARTA SECCION DEL MAIN
+// ------------------------------------------------ MODIFICAICON CUARTA SECCION DEL MAIN ------------------------------------------------
 // Modificacion cuarto subtitulo del main
 document.querySelector('.destinos h2').textContent = 'NUESTROS BARBEROS';
 
@@ -107,7 +121,7 @@ imgServicios[9].src = 'img/barber/perfil.jpg';
 imgServicios[10].src = 'img/barber/perfil.jpg';
 
 
-// MODIFICAICON QUINTA SECCION DEL MAIN
+// ------------------------------------------------ MODIFICAICON QUINTA SECCION DEL MAIN ------------------------------------------------
 // Modificacion quinto subtitulo del main
 serviciosH2[2].textContent = 'OTROS SERVICIOS';
 
@@ -134,3 +148,5 @@ imgServicios[11].src = 'img/barber/servicios8.jpg';
 imgServicios[12].src = 'img/barber/servicios9.jpg';
 imgServicios[13].src = 'img/barber/servicios10.jpg';
 imgServicios[14].src = 'img/barber/servicios11.jpg';
+
+document.querySelectorAll('.card img').style.cursor = 'pointer';
