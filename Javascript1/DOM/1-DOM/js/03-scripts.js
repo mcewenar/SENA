@@ -33,7 +33,7 @@ serviciosNav[0].textContent = 'Servicios';
 // Modificacion primer subtitulo del main
 const serviciosH2 = document.querySelectorAll('.hacer h2');
 console.log(serviciosH2);
-serviciosH2[0].textContent = 'SERVICIOS CABELLO';
+serviciosH2[0].textContent = 'SERVICIOS DE CABELLO';
 //Existen varios campos que se pueden modificar con esta variable y su posicion en el array
 
 // Eliminar etiquetas que sobran
@@ -64,9 +64,6 @@ imgServicios[2].src = 'img/barber/servicios3.jpg';
 imgServicios[3].src = 'img/barber/servicios4.jpg';
 
 // MODIFICAICON SEGUNDA SECCION DEL MAIN
-
-
-
 
 // MODIFICAICON TERCER SECCION DEL MAIN
 // Modificacion tercer subtitulo del main
