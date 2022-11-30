@@ -148,5 +148,3 @@ imgServicios[11].src = 'img/barber/servicios8.jpg';
 imgServicios[12].src = 'img/barber/servicios9.jpg';
 imgServicios[13].src = 'img/barber/servicios10.jpg';
 imgServicios[14].src = 'img/barber/servicios11.jpg';
-
-document.querySelectorAll('.card img').style.cursor = 'pointer';
