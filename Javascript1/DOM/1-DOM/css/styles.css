@@ -108,7 +108,6 @@ img {
     grid-column: 2 / 3;
     color: white;
     grid-row: 1 / 2;
-    text-align: center; /*MODIFICACION*/
 }
 
 .contenido-hero form {
@@ -142,6 +141,7 @@ img {
 }
 .contenido-hero form input[type="submit"]:hover {
     cursor: pointer;
+    transform: scale(.95); /*MODIFICACION*/
 }
 
 /** Contenido Principal**/
@@ -329,3 +329,15 @@ main > section {
 .sociales ul li span{
     display: none;
 }
+
+/* MODIFICACION: Estilo cursor imagenes */
+.card img:hover {
+    cursor: pointer;
+    transform: scale(.98);
+}
+
+/* MODIFICACION: Estilo cursor nombre servicios */
+.titulo:hover {
+    cursor: pointer;
+}
+
