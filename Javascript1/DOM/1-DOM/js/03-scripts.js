@@ -11,7 +11,6 @@ const nuevoLogo = document.querySelector('.logo img');
 nuevoLogo.src = 'img/barber/Logo.png';
 nuevoLogo.style.width = '80%';
 
-
 // Cambio encabezado de la pagina, input tipo text y su placeholder
 const nuevoencabezado = 'BARBER SENA SHOP';
 document.querySelector('.contenido-hero h1').textContent = nuevoencabezado;
@@ -119,7 +118,6 @@ imgServicios[7].src = 'img/barber/perfil.jpg';
 imgServicios[8].src = 'img/barber/perfil.jpg';
 imgServicios[9].src = 'img/barber/perfil.jpg';
 imgServicios[10].src = 'img/barber/perfil.jpg';
-
 
 // ------------------------------------------------ MODIFICAICON QUINTA SECCION DEL MAIN ------------------------------------------------
 // Modificacion quinto subtitulo del main
