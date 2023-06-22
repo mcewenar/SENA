@@ -1,0 +1,34 @@
+public class Main {
+    public static void main(String[] args) {
+        List<String> coleectList = Arrays.asList("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s",
+        "t","u","v","w","x");
+        int dataFieldSize = 5;
+        int totalDataSet = 2;
+        
+        List<List<String>> listList = partitionList(coleectList, dataFieldSize);
+
+        System.out.println(partitionList(listList, totalDataSet));
+        halfPiramyd();
+    }
+
+    public static <T> List<List<T>> partitionList(List<T> collection, int partitionSize) {
+        return IntStream.iterate(0, i -> i < collection.size(), i -> i + partitionSize)
+                .mapToObj(i -> collection.subList(i, Math.min(i + partitionSize,
+                        collection.size())))
+                .collect(Collectors.toList());
+    }
+
+
+    public static void halfPiramyd() {
+        int k = 1;
+        int i, j;
+        for(i = 1; i <= 5; i++) {
+            for(j=1; j < i + 1; j++) {
+                System.out.print(k++ + " ");
+            }
+          System.out.println();
+        }
+        
+    }
+
+}
